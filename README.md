@@ -1,2 +1,2 @@
 # C
- Linguagem C/C++
+ Linguagens C/C++
