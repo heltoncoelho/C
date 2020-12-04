@@ -10,7 +10,7 @@ int main(){
 	if (a == 6)
 		printf("\nA = 6\n");
 
-	//verifica de é par ou impar
+	//verifica se é par ou impar
 	if (a % 2 == 0)
 		printf("Numero par\n");
 	else
