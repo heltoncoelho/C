@@ -10,7 +10,7 @@ PS: fórmulas no .pdf*/
 
 int main(){
 
-	int x,y,z;
+	int x,y,z, opt;
 
 	printf("Digite um numero x positivo: ");
 		scanf("%d",&x);
@@ -19,8 +19,17 @@ int main(){
 	printf("Digite um numero z positivo: ");
 		scanf("%d",&z);
 
+	printf("\nDigite: 1 para média geometrica, 2 para ponderada, 3 para harmonica ou 4 para aritmetica: ");
+	scanf("%d",&opt);
 
-			//CONTINUAR NO DOMINGO
+	switch(opt){
+		case 1: break;
+		case 2: break;
+		case 3: break;
+		case 4: break;
+		default: printf("Erro.\n");
+	};
+
 
 
 	return 0;
