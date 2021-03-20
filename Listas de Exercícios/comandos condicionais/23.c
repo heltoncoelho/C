@@ -17,6 +17,6 @@ int main(){
 	else if (ano%4 == 0 && ano%100 !=0)
 		printf("Ano bissexto, divisivel por 4");
 	else
-		printf("O ano NAO eh bissexto.");
+		printf("O ano NAO eh bissexto.");	
 	return 0;
 }
