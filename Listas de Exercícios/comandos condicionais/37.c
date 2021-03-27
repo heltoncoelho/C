@@ -5,29 +5,35 @@
 int main(){
 
 
-	//variaveis
+//variaveis
 	int horaEntrada, minutoEntrada;
 	int horaSaida, minutoSaida;
+	int totalMinutosEntrada, totalMinutosSaida, tempoDePermanencia;
 
 
-	//coletar os dados
+//coletar os dados
 	printf("Hora de entrada:");
-	scanf("%d",&horaEntrada)
+	scanf("%d",&horaEntrada);
 
 	printf("Minuto de entrada:");
 	scanf("%d",&minutoEntrada);
 
 	printf("Hora de saida:");
-	scanf("%d",&horaSaida)
+	scanf("%d",&horaSaida);
 
 	printf("Minuto de saida:");
 	scanf("%d",&minutoSaida);
 
-	//converter a diferença de tempo entre o momento de saída e o momento de chegada em minutos para ter o tempo de permanencia.
+//converter a diferença de tempo entre o momento de saída e o momento de chegada em minutos para ter o tempo de permanencia.
+	totalMinutosEntrada = horaEntrada*60+minutoEntrada;
+	totalMinutosSaida = horaSaida*60+minutoSaida;
+	tempoDePermanencia = totalMinutosSaida - totalMinutosEntrada;
 
-	//converter o tempo de permanencia em minutos para horas
+//converter o tempo de permanencia em minutos para horas 
+	tempoDePermanencia = tempoDePermanencia/60;
 
-	//calcular pela tabela no pdf o preço a pagar
+	//NOTA: FALTA ARREDONDAR O TEMPO PARA CIMA. UM MINUTO A MAIS CONTA NA TABELA COMO UMA HORA A MAIS
+//calcular pela tabela no pdf o preço a pagar
 	
 
 
