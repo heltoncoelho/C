@@ -32,19 +32,24 @@ int main(){
 
 //arrendondar para cima os minutos (um minuto a mais conta como uma hora inteira a mais na tabela de preços por hora)
 	if(tempoDePermanencia%60 != 0){
-		aux = tempoDePermanencia%60;	//se existem minutos excedentos à hora completa, eu os pego aqui.
+		aux = tempoDePermanencia%60;	//se existem minutos excedentes à hora completa, eu os pego aqui.
 		tempoDePermanencia += 60-aux; 	/*em seguida, somo a diferença entre 60 minutos (hora completa) e os minutos excedentes, 
 		ao tempo total. Exemplo: tempo de permanencia de 61 minutos resulta em cobrança de 120 minutos (hora excedente) seguindo
 		os requisitos do exercício*/
+	}
 
 //converter o tempo de permanencia em minutos para horas 
 	tempoDePermanencia = tempoDePermanencia/60;
 	
 //calcular pela tabela no pdf o preço a pagar
-	
-		//SO FALTA MESMO CALCULAR O PREÇO DE CORDO COM A TABELA. TODO O RESTO ESTA FUNCIONANDO.
-
-
+	if(tempoDePermanencia>=1 && tempoDePermanencia<=2)
+		printf("Preco a pagar: %.2f",(double)tempoDePermanencia*1);
+	else if (tempoDePermanencia>=3 && tempoDePermanencia<=4)
+		printf("Preco a pagar: %.2f",(double)tempoDePermanencia*1.4);
+	else if (tempoDePermanencia>=5)
+		printf("Preco a pagar %.2f",(double)tempoDePermanencia*2);
+	else
+		printf("Erro.");
 
 	return 0;
 }
