@@ -41,7 +41,7 @@ int main(){
 			validaData++;
 		else
 			printf("Erro: fevereiro tem 29 dias mas o ano nao eh bissexto.");
-	}else if(mes ==2 && mes<29)
+	}else if(mes ==2 && dia<=29)
 			validaData++;
 
 	//grand finale
