@@ -1,0 +1,23 @@
+﻿COMANDOS DE REPETIÇÃO
+
+-while
+
+while(condição){
+};
+
+
+-for
+
+for(indice,comparação,incremento){
+};
+
+
+-do-while
+
+do{
+}while(condição);
+
+
+-break
+
+-continue
