@@ -21,7 +21,7 @@ int main(){
 		case 3:	printf("Multiplicacao: %.2f",numeroA*numeroB);break;
 		case 4:	printf("Divisao: %.2f",numeroA/numeroB);break;
 		default: printf("Erro!");
-	};
+	}
 
 	return 0;
 }

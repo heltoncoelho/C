@@ -14,7 +14,7 @@ int main(){
 			printf("Divisivel por 3 apenas");
 		else if (numero%5 == 0)
 			printf("Divisivel por 5 apenas");
-	};
+	}
 
 	return 0;
 }

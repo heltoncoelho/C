@@ -35,7 +35,7 @@ int main(){
 		printf("Divisao a por b: %d",a/b);	
 		else
 		printf("erro")	;
-	};	
+	}	
 
 	printf("\n");
 

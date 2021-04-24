@@ -19,7 +19,7 @@ int main(){
 			printf("D");
 		else if(peso>90)
 			printf("G");
-	};
+	}
 
 	if(altura>=1.2 && altura<=1.7){
 		if(peso<=60)
@@ -28,7 +28,7 @@ int main(){
 			printf("E");
 		else if(peso>90)
 			printf("H");
-	};
+	}
 
 	if(altura>1.7){
 		if(peso<=60)
@@ -37,7 +37,7 @@ int main(){
 			printf("F");
 		else if(peso>90)
 			printf("I");
-	};
+	}
 
 	return 0;
 }

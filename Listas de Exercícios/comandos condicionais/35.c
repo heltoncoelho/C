@@ -26,7 +26,7 @@ int main(){
 	if(dia == 31){
 		if(mes==1 || mes==3 || mes==5 || mes==7 || mes==8 || mes==10 || mes==12)
 			validaData++;
-	};
+	}
 
 	//o mes precisa estar no intervalo entre 1 e 12
 	if(mes<=12 && mes>=1)

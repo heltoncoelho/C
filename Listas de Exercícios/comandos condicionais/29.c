@@ -29,7 +29,7 @@ int main(){
 			printf("A resposta eh %d e você acertou!\n\n",a+b);			
 		};
 		itera++;
-	};
+	}
 
 	printf("Voce acertou um total de %d vezes.",contadorDeAcertos);
 

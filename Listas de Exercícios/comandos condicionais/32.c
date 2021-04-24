@@ -32,7 +32,7 @@ int main(){
 		case 105: printf("Valor a ser pago: %.2f",quantidade*2.2);break;
 		case 106: printf("Valor a ser pago: %.2f",quantidade*1);break;
 		default:  printf("Codigo inexistente");
-	};
+	}
 
 
 	return 0;

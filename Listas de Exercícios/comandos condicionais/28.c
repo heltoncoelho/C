@@ -30,7 +30,7 @@ int main(){
 		case 3: printf("Harmonica: %.2f",(1/((1/x)+(1/y)+(1/z))));break;
 		case 4: printf("Aritmetica: %.2f",(x+y+z)/3);break;
 		default: printf("Erro.\n");
-	};
+	}
 
 
 	return 0;

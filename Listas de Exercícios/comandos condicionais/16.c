@@ -23,7 +23,7 @@ int main(){
 		case 11: printf("Novembro");break;
 		case 12: printf("Dezembro");break;
 		default: printf("Erro");
-	};
+	}
 
 	return 0;
 }

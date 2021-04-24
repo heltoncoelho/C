@@ -18,7 +18,7 @@ int main(){
 		case 6: printf("Sexta");break;
 		case 7: printf("Sabado");break;
 		default: printf("Erro");
-	};
+	}
 
 	return 0;
 }
