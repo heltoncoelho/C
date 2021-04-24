@@ -11,7 +11,7 @@ int main(){
 		printf("Valor %d: ",indice);
 		scanf("%d",&valor);
 		soma += valor;
-	};
+	}
 
 	printf("\nSoma dos valores digitados: %d",soma);
 

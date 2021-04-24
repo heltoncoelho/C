@@ -11,11 +11,11 @@ int main(){
 	while(inteiroN == -1){
 		printf("Digite um inteiro positivo: ");
 		scanf("%d",&inteiroN);
-	};
+	}
 
 	for(i=0;i<=inteiroN;i++){
 		soma += i;
-	};
+	}
 
 	printf("Soma dos n primeiros numeros naturais ate o numero digitado: %d",soma);
 

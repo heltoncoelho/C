@@ -9,7 +9,7 @@ int main(){
 	while(indice != 0){
 		printf("%d ",indice);
 		indice--;
-	};
+	}
 
 	printf("FIM!");
 

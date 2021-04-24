@@ -11,11 +11,11 @@ int main(){
 	while(numeroN<=0){
 		printf("Digite um numero inteiro: ");
 		scanf("%d",&numeroN);		
-	};
+	}
 
 	for(i=1;i<=numeroN;i++){
 		printf("%d ",i);
-	};
+	}
 
 
 	return 0;

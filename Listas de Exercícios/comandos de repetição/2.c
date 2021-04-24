@@ -9,14 +9,14 @@ int main(){
 	printf("Usando FOR:\n");
 	for(indice=1;indice<=100;indice++){		
 		printf("%d ",indice);
-	};
+	}
 
 	printf("\nUsando WHILE:\n");
 	indice = 1;
 	while(indice != 101){
 		printf("%d ",indice);
 		indice++;
-	};
+	}
 
 	printf("\nUsando DO WHILE:\n");
 	indice = 1;

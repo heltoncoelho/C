@@ -27,7 +27,7 @@ int main(){
 			printf("%d ",i);
 			somaPares+=i;
 		}
-	};
+	}
 
 	printf("\nIMPARES: ");
 	for(i=limiteMin;i<=limiteMax;i++){
@@ -36,7 +36,7 @@ int main(){
 			printf("%d ",i);
 			multImpares = i*multImpares;
 		}
-	};
+	}
 
 
 	printf("\nSoma dos numeros pares: %d e multiplicacao dos impares: %d ",somaPares,multImpares);

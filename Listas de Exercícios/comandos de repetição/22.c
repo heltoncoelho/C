@@ -22,13 +22,10 @@ int main(){
 		somaNotas += nota;
 		}else
 			break;		
-	};
+	}
 
 	mediaAritmetica = somaNotas / contaNotas;
 	printf("\nMedia: %d",mediaAritmetica);
-
-
-
 
 	return 0;
 }

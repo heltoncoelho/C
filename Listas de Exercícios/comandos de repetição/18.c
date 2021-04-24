@@ -16,7 +16,7 @@ int main(){
 	if(qtdNumeros>0){	//um numero deve servir de parâmetro de comparação, e será o maior por enquanto.
 		printf("Numero #1: ");
 		scanf("%d",&maior);
-	};
+	}
 	
 
 	for(i=2;i<=qtdNumeros;i++){	//coleta os numeros até o limite n dado pelo usuario
@@ -25,8 +25,8 @@ int main(){
 
 		if(num>maior){	//compara o digitado, se for maior armazena
 			maior = num;	
-		};
-	};
+		}
+	}
 	
 
 	printf("Maior: %d",maior);

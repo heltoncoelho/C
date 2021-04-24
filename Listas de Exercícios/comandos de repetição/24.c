@@ -14,8 +14,8 @@ int main(){
 		if(inteiro%i == 0){
 			printf("%d ",i);
 			soma+=i;
-		};
-	};
+		}
+	}
 
 	printf("\nSoma: %d",soma);
 

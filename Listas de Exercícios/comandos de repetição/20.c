@@ -34,9 +34,9 @@ int main(){
 		if(i%2 == 0){
 			printf("%d ",i);
 			contadorPares++;
-		};
+		}
 
-	};
+	}
 
 	printf("\nO intervalo contem %d valores com %d numeros pares\n",qtdValores,contadorPares);
 

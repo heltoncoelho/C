@@ -9,7 +9,7 @@ int main(){
 	while(hPLovecraft != 100000){		
 		hPLovecraft += 1000;
 		printf("%d\n",hPLovecraft);
-	};
+	}
 
 	return 0;
 }

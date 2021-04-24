@@ -18,8 +18,8 @@ int main(){
 		else{
 			soma+=inteiro;
 			contador++;
-		};
-	};
+		}
+	}
 
 	printf("\nMedia: %d",soma/10);
 	return 0;

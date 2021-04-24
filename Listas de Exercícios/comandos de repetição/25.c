@@ -12,8 +12,8 @@ int main(){
 		if((i%3==0 && i%5!=0) || (i%5==0 && i%3!=0) ){
 			printf("%d ",i);
 			soma+=i;
-		};
-	};
+		}
+	}
 
 
 	return 0;

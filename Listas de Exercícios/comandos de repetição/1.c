@@ -17,7 +17,7 @@ int main(){
 
 			if(contador == 5)	//quando conseguirmos os 5 primeiros multiplos, saimos do laço FOR
 					break;		
-	};
+	}
 
 
 	return 0;

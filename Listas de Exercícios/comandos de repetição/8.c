@@ -18,15 +18,13 @@ int main(){
 		scanf("%d",&num);
 
 		if(num<menor){
-			menor = num;
-			
-		};
+			menor = num;			
+		}
 
 		if(num>maior){
 			maior = num;			
-		};
-		
-	};
+		}		
+	}
 
 	printf("\nMaior numero digitado: %d\tMenor numero digitado: %d\n",maior,menor);
 

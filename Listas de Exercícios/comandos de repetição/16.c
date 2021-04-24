@@ -17,7 +17,7 @@ int main(){
 	for(indice=inteiro;indice!=0;indice--){		
 		if(indice%2 != 0)
 			printf("%d ",indice);
-	};
+	}
 
 
 	return 0;

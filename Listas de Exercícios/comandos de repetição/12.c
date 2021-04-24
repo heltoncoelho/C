@@ -10,13 +10,13 @@ int main(){
 	while(inteiroN<=0){
 		printf("Digite um numero inteiro: ");
 		scanf("%d",&inteiroN);		
-	};
+	}
 
 	indice = inteiroN;
 	while(indice != 0){
 		printf("%d ",indice);
 		indice--;
-	};
+	}
 
 	return 0;
 }
