@@ -3,8 +3,8 @@ S = 0 + 1/2! + 2/4! + 3/6! + ...*/
 
 #include <stdio.h>
 
-int main(){
 
+int main(){
 
 
 
