@@ -4,7 +4,18 @@
 
 int main(){
 
+	int i = 1, j = 1;
+	float soma = 1;
 
+	while(j!=50){
+		i+=2;
+		j++;		
+		soma+=i/j;
+
+		printf("i = %d\tj = %d\n",i,j);
+	}
+
+	printf("soma: %.2f",soma);
 
 	return 0;
 }
