@@ -6,23 +6,29 @@
 
 int main(){
 
-	int d1, d2;
+	int d1, d2, n, i;
 
 	srand(time(NULL));
 
-	d1 = rand()%10;
-	d2 = rand()%10;
+	printf("Quantos lancamentos? ");
+	scanf("%d",&n);
 
-	printf("D1: %d\n",d1);
-	printf("D2: %d\n",d2);
 
-	if(d1==d2)
-		printf("d1 igual a d2");
-	if(d1<d2)
-		printf("d1 menor que d2");
-	if(d1>d2)
-		printf("d1 maior que d2");
+	for(i=0;i<n;i++){
+		d1 = rand()%10;
+		d2 = rand()%10;
 
+		printf("D1: %d\tD2: %d\n",d1,d2);		
+
+		if(d1==d2)
+			printf("d1 igual a d2");
+		if(d1<d2)
+			printf("d1 menor que d2");
+		if(d1>d2)
+			printf("d1 maior que d2");
+
+		printf("\n\n");
+	}
 
 	return 0;
 }
