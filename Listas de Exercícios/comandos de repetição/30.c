@@ -25,14 +25,16 @@ int main(){
 	}
 	printf("\nSequencia 1: %d",soma);
 
-	/*//segunda sequência
-	soma = 0, i = 0, j = 0;
-	for(i=0;i=10;i++){
-		for(j=1;j<2*n+1;j++){
-			soma+=(i+1)-(2*j);
-			soma+=(i+1)+(2*j+1);
-		}
-	}
+	/*
+
+	//segunda sequência
+
+
+
+
+	//terceira sequência
+
+
 
 	printf("\nSequencia 2: %d",soma);
 	
