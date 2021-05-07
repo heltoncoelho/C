@@ -5,18 +5,27 @@ múltiplos de i ou de j e ou de ambos. Exemplo: Para N = 6, i = 2 e j = 3 a saí
 
 int main(){
 
-	int n, i, j; //n é o limite maximo
+	int maximo, index, i, j; //n é o limite maximo
 
 	printf("Digite o limite maximo de numeros: ");
-	scanf("%d",&n);
+	scanf("%d",&maximo);
 
-	printf("Digite o primeiro numero parea buscar seus multiplos: ");
+	printf("Digite o primeiro numero para imprimir seus multiplos: ");
 	scanf("%d",&i);
 
-	printf("Digite o segundo numero para buscar seus multiplos: ");
+	printf("Digite o segundo numero para imprimir seus multiplos: ");
 	scanf("%d",&j);
 
-	//uma laço for com x%y para encontrar i e j
 
+	for(index=0;index<=maximo;index++){
+
+		if(index%i == 0)
+			printf("%d ",index);
+
+		if(index%j == 0 && index%i !=0)	//a segunda condição é necessário para excluir da impressão o multiplo de ambos.
+			printf("%d ",index);					
+	}	
+	
 	return 0;
+
 }
